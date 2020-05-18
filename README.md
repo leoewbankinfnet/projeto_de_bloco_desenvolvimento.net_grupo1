@@ -7,4 +7,4 @@ Grupo
 Leonardo Ewbank (Líder),
 Marco Targino,
 Matheus Matos,
-Nathan Borges.
+Natan Borges.
