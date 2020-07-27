@@ -1,6 +1,0 @@
-dar um nome
-criar crud
-definir database
-
-teste para fork, pull e push do repo
-vou subir a branch pro master
