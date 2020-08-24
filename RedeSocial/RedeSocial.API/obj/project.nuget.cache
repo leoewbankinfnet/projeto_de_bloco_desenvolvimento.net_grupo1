@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JOzn0Nko3JuCnEok5eac2UTQUQp3ugapVJEk7HN25ePeE844Hw7ul5fnDx8eKtbGTxL3hN7/Bft6rsMy8rcAsA==",
+  "dgSpecHash": "rQNb5pmJ6194ZFGl/YZ/8Tkf+Xgnb2ROcLz6F2pCqboXO0NAK6dr6pjDcWEpfDQJ3fNLGJftL9liSXF2Oy3O0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj",
+  "projectFilePath": "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natan\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\natan\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

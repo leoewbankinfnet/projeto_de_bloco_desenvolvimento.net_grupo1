@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pFxp16gzWdN5jZ8V+TXg72JJNcXxwkI2uV37G1dv03GzywoiHM5hJOjeNHb3maeoFLIlhQNDORq+WY6Mbkd58Q==",
+  "dgSpecHash": "Hltdp8YaD96gqLXGD0WndOyoRcjUIfzLMkkng5DnfnOBwCx21jRj11PTRu8csiEMCXn5EHFXmiEa3Mgk3md/zw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.Tests\\RedeSocial.Tests.csproj",
+  "projectFilePath": "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Tests\\RedeSocial.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natan\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\natan\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

@@ -5982,11 +5982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj",
+      "projectUniqueName": "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj",
       "projectName": "RedeSocial.API",
-      "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj",
+      "projectPath": "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj",
       "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.API\\obj\\",
+      "outputPath": "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6002,8 +6002,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj": {
-              "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj"
+            "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj": {
+              "projectPath": "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj"
             }
           }
         }

@@ -5173,11 +5173,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj",
       "projectName": "RedeSocial.Repository",
-      "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj",
+      "projectPath": "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj",
       "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.Repository\\obj\\",
+      "outputPath": "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5193,11 +5193,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj"
+            "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj"
             },
-            "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
-              "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj"
+            "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
+              "projectPath": "C:\\Users\\natan\\source\\repos\\intro-ef-core-master\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj"
             }
           }
         }
