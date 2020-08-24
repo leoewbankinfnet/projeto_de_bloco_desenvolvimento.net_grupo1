@@ -112,7 +112,7 @@ namespace RedeSocial.Web.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "Home");
             }
             return View(account);
         }

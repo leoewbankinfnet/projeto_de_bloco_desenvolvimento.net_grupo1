@@ -610,6 +610,17 @@ C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolviment
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.csproj.CoreCompileInputs.cache
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.MvcApplicationPartsAssemblyInfo.cache

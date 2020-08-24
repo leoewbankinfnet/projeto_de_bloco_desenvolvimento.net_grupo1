@@ -332,6 +332,10 @@
               "target": "Package",
               "version": "[3.1.4, )"
             },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[106.11.4, )"

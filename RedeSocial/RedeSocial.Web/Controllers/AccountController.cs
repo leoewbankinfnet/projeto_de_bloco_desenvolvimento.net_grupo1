@@ -4,8 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using RedeSocial.Services.Account;
 using RedeSocial.Web.ViewModel.Account;
 using Microsoft.AspNet.Identity;
-
-
+using MySqlX.XDevAPI;
 
 namespace RedeSocial.Web.Controllers
 {
@@ -58,9 +57,6 @@ namespace RedeSocial.Web.Controllers
             }
             
         }
-
-
-
 
 
 
