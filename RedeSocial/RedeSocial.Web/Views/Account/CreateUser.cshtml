@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model RedeSocial.Web.ViewModel.Account.LoginViewModel
+
+<div class="text-center">
+    <h1 class="display-4">Login na Rede Social de Horta</h1>
+</div>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="CreateUser" asp-controller="Account" method="post" asp-route-returnurl="@ViewBag.ReturnUrl">
+    <div class="form-group">
+        <label asp-for="UserName">UserName</label>
+        <input type="text" asp-for="UserName" class="form-control" placeholder="UserName">
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">Senha</label>
+        <input type="password" asp-for="Password" class="form-control" placeholder="Senha">
+    </div>
+    <button type="submit" class="btn btn-primary">Entrar</button>
+</form>

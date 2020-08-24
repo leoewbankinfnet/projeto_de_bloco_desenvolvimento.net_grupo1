@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.Repository\\RedeSocial.Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
+        "projectName": "RedeSocial.CrossCutting",
+        "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.Domain\\RedeSocial.Domain.csproj",
+        "projectName": "RedeSocial.Domain",
+        "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.Domain\\RedeSocial.Domain.csproj",
+        "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.Repository\\RedeSocial.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.Repository\\RedeSocial.Repository.csproj",
+        "projectName": "RedeSocial.Repository",
+        "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.Repository\\RedeSocial.Repository.csproj",
+        "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj"
+              },
+              "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
+                "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocial-Infnet-master\\RedeSocial.Domain\\RedeSocial.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
