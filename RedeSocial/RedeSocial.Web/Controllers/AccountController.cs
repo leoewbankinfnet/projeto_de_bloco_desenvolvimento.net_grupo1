@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using RedeSocial.Services.Account;
 using RedeSocial.Web.ViewModel.Account;
+using Microsoft.AspNet.Identity;
+
+
 
 namespace RedeSocial.Web.Controllers
 {
@@ -17,6 +18,7 @@ namespace RedeSocial.Web.Controllers
         {
             this.AccountService = accountService;
             this.AccountIdentityManager = accountIdentityManager;
+
         }
 
         public IActionResult Index()

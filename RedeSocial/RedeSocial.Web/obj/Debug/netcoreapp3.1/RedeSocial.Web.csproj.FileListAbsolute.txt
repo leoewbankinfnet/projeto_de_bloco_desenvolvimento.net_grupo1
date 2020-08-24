@@ -578,9 +578,6 @@ C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolviment
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.csprojAssemblyReference.cache
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.AssemblyInfoInputs.cache
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.AssemblyInfo.cs
-C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.csproj.CoreCompileInputs.cache
-C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.RazorAssemblyInfo.cache
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.RazorAssemblyInfo.cs
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.TagHelpers.input.cache
@@ -609,3 +606,10 @@ C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolviment
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.dll
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.pdb
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.genruntimeconfig.cache
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.csproj.CoreCompileInputs.cache
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.MvcApplicationPartsAssemblyInfo.cache
