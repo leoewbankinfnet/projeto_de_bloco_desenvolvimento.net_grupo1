@@ -1,0 +1,5 @@
+C:\Users\leona\source\repos\RedeSocial\RedeSocial.Repository\bin\Debug\netcoreapp3.1\RedeSocial.CrossCutting.dll
+C:\Users\leona\source\repos\RedeSocial\RedeSocial.Repository\bin\Debug\netcoreapp3.1\RedeSocial.Domain.dll
+C:\Users\leona\source\repos\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.csprojAssemblyReference.cache
+C:\Users\leona\source\repos\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.AssemblyInfoInputs.cache
+C:\Users\leona\source\repos\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.AssemblyInfo.cs

@@ -1,0 +1,5 @@
+C:\Users\leona\source\repos\RedeSocial\RedeSocial.Domain\bin\Debug\netcoreapp3.1\RedeSocial.Domain.deps.json
+C:\Users\leona\source\repos\RedeSocial\RedeSocial.Domain\bin\Debug\netcoreapp3.1\RedeSocial.Domain.dll
+C:\Users\leona\source\repos\RedeSocial\RedeSocial.Domain\obj\Debug\netcoreapp3.1\RedeSocial.Domain.AssemblyInfoInputs.cache
+C:\Users\leona\source\repos\RedeSocial\RedeSocial.Domain\obj\Debug\netcoreapp3.1\RedeSocial.Domain.AssemblyInfo.cs
+C:\Users\leona\source\repos\RedeSocial\RedeSocial.Domain\obj\Debug\netcoreapp3.1\RedeSocial.Domain.csprojAssemblyReference.cache
