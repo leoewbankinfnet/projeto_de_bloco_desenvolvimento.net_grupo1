@@ -18,6 +18,9 @@ namespace RedeSocial.Repository.Mapping
             builder.Property(x => x.Name).IsRequired().HasMaxLength(150);
             builder.Property(x => x.Password).IsRequired().HasMaxLength(150);
             builder.Property(x => x.DtBirthday).IsRequired();
+
+            builder.HasMany(x => x.Profiles).WithOne(); //navegação unidirecional, Um perfil tem várias contas, o perfil de uma conta.
+            //builder.HasMany(x => x.Profiles).WithOne(x=>x.Accounts); navegação bidirecional, consegue ir de conta para perfil e de perfil saber a relação com a conta
         }
     }
 }

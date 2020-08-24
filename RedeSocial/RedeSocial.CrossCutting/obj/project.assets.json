@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
+      "projectUniqueName": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
       "projectName": "RedeSocial.CrossCutting",
-      "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
+      "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
       "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.CrossCutting\\obj\\",
+      "outputPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

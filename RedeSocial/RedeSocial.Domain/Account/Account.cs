@@ -13,5 +13,9 @@ namespace RedeSocial.Domain.Account
         public String Email { get; set; }
         public String Password { get; set; }
 
+
+        //Uma conta pode ter vários perfis
+        public List<Profile> Profiles { get; set; }
+
     }
 }

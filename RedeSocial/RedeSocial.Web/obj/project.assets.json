@@ -5828,11 +5828,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Web\\RedeSocial.Web.csproj",
+      "projectUniqueName": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Web\\RedeSocial.Web.csproj",
       "projectName": "RedeSocial.Web",
-      "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Web\\RedeSocial.Web.csproj",
+      "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Web\\RedeSocial.Web.csproj",
       "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Web\\obj\\",
+      "outputPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5851,8 +5851,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj": {
-              "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj"
+            "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj": {
+              "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj"
             }
           }
         }

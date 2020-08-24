@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj": {}
+    "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj": {
+    "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj",
         "projectName": "RedeSocial.API",
-        "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj",
+        "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj",
         "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.API\\obj\\",
+        "outputPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj": {
-                "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj"
+              "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj": {
+                "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj": {
+    "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
         "projectName": "RedeSocial.CrossCutting",
-        "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -121,14 +121,14 @@
         }
       }
     },
-    "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
+    "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj",
         "projectName": "RedeSocial.Domain",
-        "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj",
+        "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj",
         "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Domain\\obj\\",
+        "outputPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -186,14 +186,14 @@
         }
       }
     },
-    "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj": {
+    "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj",
         "projectName": "RedeSocial.Repository",
-        "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj",
+        "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj",
         "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Repository\\obj\\",
+        "outputPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -212,11 +212,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj"
+              "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj"
               },
-              "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
-                "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj"
+              "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
+                "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj"
               }
             }
           }
@@ -268,14 +268,14 @@
         }
       }
     },
-    "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj": {
+    "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj",
         "projectName": "RedeSocial.Service",
-        "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj",
+        "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Service\\RedeSocial.Service.csproj",
         "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Service\\obj\\",
+        "outputPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -294,11 +294,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
-                "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj"
+              "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
+                "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj"
               },
-              "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj": {
-                "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj"
+              "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj": {
+                "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj"
               }
             }
           }

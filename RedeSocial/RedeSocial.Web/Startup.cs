@@ -33,17 +33,19 @@ namespace RedeSocial.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IAccountRepository, ApplicationDbContext>();//cria instancia do objeto por requisi;'ao
-            services.AddTransient<IAccountService, AccountService>(); //reconhece o que injeta em cada camada de servi;o
+
+            //Controle de conta e perfil
+            services.AddTransient<IAccountRepository, AccountRepository>();//cria instancia do objeto por requisi;'ao
+            services.AddTransient<IAccountService, AccountService>(); //reconhece o que injeta em cada camada de servi;o. Gerenciador da conta, criação/deleção/modificação
             services.AddTransient<IUserStore<Account>, AccountRepository>();
             services.AddTransient<IRoleStore<Profile>, ProfileRepository>();
-            services.AddTransient<IAccountIdentityManager, AccountIdentityManager>(); //no controlador de conta vai ser possível injetar o seviço. 
+            services.AddTransient<IAccountIdentityManager, AccountIdentityManager>(); //no controlador de conta vai ser possível injetar o seviço. sabe se o cara loga com sucesso
 
-
+            //Set da identity que tem operador de conta e de perfil
             services.AddIdentity<Account, Profile>()
-                 .AddDefaultTokenProviders();
+                 .AddDefaultTokenProviders(); 
 
-            services.ConfigureApplicationCookie(options =>
+            services.ConfigureApplicationCookie(options => //paginas de acesso
             {
                 options.LoginPath = "/Account/Login";
                 options.AccessDeniedPath = "/Account/AcessDenied";

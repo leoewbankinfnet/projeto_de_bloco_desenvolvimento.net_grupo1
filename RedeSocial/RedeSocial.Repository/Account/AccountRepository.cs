@@ -5,10 +5,11 @@ using System.Text;
 using RedeSocial.Domain.Account;
 using System.Threading.Tasks;
 using System.Threading;
+using RedeSocial.Domain.Account.Repository;
 
 namespace RedeSocial.Repository.Account
 {
-    public class AccountRepository : IUserStore<Domain.Account.Account>
+    public class AccountRepository : IUserStore<Domain.Account.Account>, IAccountRepository
     { 
         public Task<IdentityResult> CreateAsync(Domain.Account.Account user, CancellationToken cancellationToken)
         {

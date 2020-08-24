@@ -5661,11 +5661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Tests\\RedeSocial.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Tests\\RedeSocial.Tests.csproj",
       "projectName": "RedeSocial.Tests",
-      "projectPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Tests\\RedeSocial.Tests.csproj",
+      "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Tests\\RedeSocial.Tests.csproj",
       "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leona\\source\\repos\\RedeSocial\\RedeSocial.Tests\\obj\\",
+      "outputPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
