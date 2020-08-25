@@ -16,3 +16,12 @@ C:\Users\natan\source\repos\RedeSocial-Infnet-master\RedeSocial.CrossCutting\obj
 C:\Users\natan\source\repos\RedeSocial-Infnet-master\RedeSocial.CrossCutting\obj\Debug\netcoreapp3.1\RedeSocial.CrossCutting.csproj.CoreCompileInputs.cache
 C:\Users\natan\source\repos\RedeSocial-Infnet-master\RedeSocial.CrossCutting\obj\Debug\netcoreapp3.1\RedeSocial.CrossCutting.dll
 C:\Users\natan\source\repos\RedeSocial-Infnet-master\RedeSocial.CrossCutting\obj\Debug\netcoreapp3.1\RedeSocial.CrossCutting.pdb
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.CrossCutting\bin\Debug\netcoreapp3.1\RedeSocial.CrossCutting.deps.json
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.CrossCutting\bin\Debug\netcoreapp3.1\RedeSocial.CrossCutting.dll
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.CrossCutting\bin\Debug\netcoreapp3.1\RedeSocial.CrossCutting.pdb
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.CrossCutting\obj\Debug\netcoreapp3.1\RedeSocial.CrossCutting.csprojAssemblyReference.cache
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.CrossCutting\obj\Debug\netcoreapp3.1\RedeSocial.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.CrossCutting\obj\Debug\netcoreapp3.1\RedeSocial.CrossCutting.AssemblyInfo.cs
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.CrossCutting\obj\Debug\netcoreapp3.1\RedeSocial.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.CrossCutting\obj\Debug\netcoreapp3.1\RedeSocial.CrossCutting.dll
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.CrossCutting\obj\Debug\netcoreapp3.1\RedeSocial.CrossCutting.pdb

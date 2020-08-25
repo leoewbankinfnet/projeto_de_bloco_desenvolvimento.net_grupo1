@@ -37,6 +37,7 @@ namespace RedeSocial.Services.Account
 
         public async Task Logout()
         {
+     
             await this.SignInManager.SignOutAsync();
         }
     }

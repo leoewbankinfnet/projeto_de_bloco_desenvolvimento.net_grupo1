@@ -29,12 +29,15 @@
                             <a class="nav-link" asp-action="Create" asp-controller="AccountsCreate">Criar Conta</a>
                         </li>
 
+
                     </ul>
+                    <form method="post" asp-controller="Account" asp-action="Logout">
+                        <input type="submit" value="Logout" />
+                    </form>
                     <div class="navbar-text">
                         <img class="img-profile rounded-circle" src="https://robohash.org/@(this.User.Claims.First(x => x.Type == System.Security.Claims.ClaimTypes.NameIdentifier).Value)?size=30x30&bgset=bg1">
                         <span class="mr-2 d-none d-lg-inline text-gray-600 small">@this.User.Identity.Name.ToLower()</span>
                         <a asp-controller="AccountsCreate" asp-action="Edit" asp-route-id="@(this.User.Claims.First(x => x.Type == System.Security.Claims.ClaimTypes.NameIdentifier).Value)">Edit</a>
-
                     </div>
                 </div>
             </nav>

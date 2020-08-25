@@ -5,6 +5,11 @@ using RedeSocial.Services.Account;
 using RedeSocial.Web.ViewModel.Account;
 using Microsoft.AspNet.Identity;
 using MySqlX.XDevAPI;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.CookiePolicy;
 
 namespace RedeSocial.Web.Controllers
 {
@@ -12,7 +17,8 @@ namespace RedeSocial.Web.Controllers
     {
         private IAccountService AccountService { get; set; }
         private IAccountIdentityManager AccountIdentityManager { get; set; }
-
+        
+          
         public AccountController(IAccountService accountService, IAccountIdentityManager accountIdentityManager)
         {
             this.AccountService = accountService;
@@ -56,6 +62,31 @@ namespace RedeSocial.Web.Controllers
                 return View(model);
             }
             
+        }
+
+        [HttpPost]
+        public async Task Logout()
+        {
+            await CustomSignOut("Login");
+
+        }
+        [HttpPost]
+        public async Task CustomSignOut(string redirectUri)
+        {
+            // inject the HttpContextAccessor to get "context"
+            await HttpContext.SignOutAsync();
+            HttpContext.Response.Cookies.Delete(".AspNetCore.Cookies");
+            foreach (var cookie in Request.Cookies.Keys)
+            {
+                Response.Cookies.Delete(cookie);
+            }
+            var prop = new AuthenticationProperties()
+            {
+                RedirectUri = redirectUri
+            };
+
+            // after signout this will redirect to your provided target
+            await HttpContext.SignOutAsync(prop);
         }
 
 
