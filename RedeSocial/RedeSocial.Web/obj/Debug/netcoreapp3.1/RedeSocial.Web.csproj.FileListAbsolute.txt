@@ -843,3 +843,8 @@ C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.dll
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.pdb
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.genruntimeconfig.cache
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Blob.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Common.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Upload\Create.cshtml.g.cs
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Upload\Index.cshtml.g.cs
