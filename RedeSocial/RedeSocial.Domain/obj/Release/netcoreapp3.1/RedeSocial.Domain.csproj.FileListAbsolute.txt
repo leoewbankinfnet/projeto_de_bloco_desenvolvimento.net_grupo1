@@ -1,0 +1,9 @@
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Domain\bin\Release\netcoreapp3.1\RedeSocial.Domain.deps.json
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Domain\bin\Release\netcoreapp3.1\RedeSocial.Domain.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Domain\bin\Release\netcoreapp3.1\RedeSocial.Domain.pdb
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Domain\obj\Release\netcoreapp3.1\RedeSocial.Domain.csprojAssemblyReference.cache
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Domain\obj\Release\netcoreapp3.1\RedeSocial.Domain.AssemblyInfoInputs.cache
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Domain\obj\Release\netcoreapp3.1\RedeSocial.Domain.AssemblyInfo.cs
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Domain\obj\Release\netcoreapp3.1\RedeSocial.Domain.csproj.CoreCompileInputs.cache
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Domain\obj\Release\netcoreapp3.1\RedeSocial.Domain.dll
+C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Domain\obj\Release\netcoreapp3.1\RedeSocial.Domain.pdb
