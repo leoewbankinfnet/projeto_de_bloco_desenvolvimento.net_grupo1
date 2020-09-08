@@ -3,6 +3,9 @@
 @{
     ViewData["Title"] = "Edit";
 }
+<h4>Foto de Perfil</h4>
+<img class="img-thumbnail"
+     src="https://redesocialverde.blob.core.windows.net/imagens/@(this.User.Claims.First(x => x.Type == System.Security.Claims.ClaimTypes.Name).Value)fotoperfil.jpg?size=30x30&bgset=bg1">
 
 <h1>Edit</h1>
 
@@ -44,6 +47,19 @@
         </form>
     </div>
 </div>
+<h4>Trocar foto de perfil</h4>
+
+@if (ViewBag.UrlGerada != null)
+{
+    <img src="@ViewBag.UrlGerada" />
+}
+<form asp-action="CreateFotoPerfil" asp-controller="Upload" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label>Arquivo</label>
+        <input type="file" class="form-control" placeholder="file" name="file" id="file">
+    </div>
+    <button type="submit" class="btn btn-primary">Entrar</button>
+</form>
 
 <div>
     <a asp-controller="Account" asp-action="Index">Back to List</a>

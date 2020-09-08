@@ -15,5 +15,6 @@ namespace RedeSocial.Domain.Account
         public String Password { get; set; }
         public Role Role { get; set; }
         public string UserName { get; set; }
+        public string fotoPerfil { get; set; }
     }
 }

@@ -31,6 +31,7 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-action="Index" asp-controller="Upload">Upload</a>
                         </li>
+                        
 
 
                     </ul>
@@ -38,15 +39,15 @@
                         <input type="submit" value="Logout" />
                     </form>
                     <div class="navbar-text">
-                        <img class="img-profile rounded-circle" src="https://robohash.org/@(this.User.Claims.First(x => x.Type == System.Security.Claims.ClaimTypes.NameIdentifier).Value)?size=30x30&bgset=bg1">
+                        <img class="img-profile rounded-circle" style="max-width:26px" src="https://redesocialverde.blob.core.windows.net/imagens/@(this.User.Claims.First(x => x.Type == System.Security.Claims.ClaimTypes.Name).Value)fotoperfil.jpg?size=30x30&bgset=bg1">
                         <span class="mr-2 d-none d-lg-inline text-gray-600 small">@this.User.Identity.Name.ToLower()</span>
-                        <a asp-controller="AccountsCreate" asp-action="Edit" asp-route-id="@(this.User.Claims.First(x => x.Type == System.Security.Claims.ClaimTypes.NameIdentifier).Value)">Edit</a>
+                        <a asp-controller="AccountsCreate" asp-action="Edit" asp-route-id="@(this.User.Claims.First(x => x.Type == System.Security.Claims.ClaimTypes.NameIdentifier).Value)">Editar Perfil</a>
                     </div>
                 </div>
             </nav>
         </header>
     }
-
+    
 
     <div class="container">
         <main role="main" class="pb-3">

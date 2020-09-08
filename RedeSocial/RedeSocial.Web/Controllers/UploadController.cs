@@ -51,6 +51,29 @@ namespace RedeSocial.Web.Controllers
 
             return View();
         }
+        [HttpPost]
+        public async Task<IActionResult> CreateFotoPerfil([FromForm] IFormFile file)
+        {
+            var ms = new MemoryStream();
+
+            if (file.ContentType.ToLower() != "image/jpg" && file.ContentType.ToLower() != "image/jpeg" && file.ContentType.ToLower() != "image/png" && file.ContentType.ToLower() != "image/bmp")
+            {
+                ModelState.AddModelError("Image", "Image deve ser com a extensão .jpg, .png ou bmp");
+                return View();
+            }
+
+            using (var fileUpload = file.OpenReadStream())
+            {
+                await fileUpload.CopyToAsync(ms);
+                fileUpload.Close();
+            }
+
+            var urlAzure = await this.AzureStorage.SaveToStorage(ms.ToArray(), $"{User.Identity.Name.ToString().Replace("-", "")}fotoperfil.jpg");
+
+            ViewBag.UrlGerada = urlAzure;
+
+            return View("/Views/Home/index.cshtml");
+        }
 
     }
 }
