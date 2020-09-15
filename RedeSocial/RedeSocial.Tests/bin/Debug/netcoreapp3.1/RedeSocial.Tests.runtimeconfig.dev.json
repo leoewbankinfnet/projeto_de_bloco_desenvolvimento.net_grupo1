@@ -1,9 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\rafae\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\rafae\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Users\\natan\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\natan\\.nuget\\packages"
     ]
   }
 }

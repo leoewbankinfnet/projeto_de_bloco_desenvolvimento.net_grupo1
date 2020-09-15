@@ -6208,23 +6208,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leona\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\natan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj",
+      "projectUniqueName": "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj",
       "projectName": "RedeSocial.Services",
-      "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj",
-      "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\obj\\",
+      "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj",
+      "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6237,11 +6233,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
-              "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj"
+            "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj": {
+              "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Domain\\RedeSocial.Domain.csproj"
             },
-            "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj": {
-              "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj"
+            "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj": {
+              "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Repository\\RedeSocial.Repository.csproj"
             }
           }
         }
@@ -6275,7 +6271,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
