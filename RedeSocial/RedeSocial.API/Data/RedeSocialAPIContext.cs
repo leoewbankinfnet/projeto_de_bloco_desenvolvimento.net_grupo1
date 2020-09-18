@@ -15,6 +15,8 @@ namespace RedeSocial.API.Data
         }
 
         public DbSet<Account> Account { get; set; }
+        public DbSet<Comentario> Comentario { get; set; }
+        public DbSet<Postagem> Postagem { get; set; }
 
 
     }

@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RedeSocial.Repository.Context;
 
 namespace RedeSocial.Repository.Migrations
 {
     [DbContext(typeof(RedeSocialContext))]
-    partial class RedeSocialContextModelSnapshot : ModelSnapshot
+    [Migration("20200918201531_PostagensComentario")]
+    partial class PostagensComentario
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -62,23 +64,17 @@ namespace RedeSocial.Repository.Migrations
 
             modelBuilder.Entity("RedeSocial.Domain.Account.Comentario", b =>
                 {
-                    b.Property<Guid>("comentarioId")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("accountName")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("comentario")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("idDaPostagem")
+                    b.Property<Guid>("postagemId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("postagemId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("comentarioId");
+                    b.HasKey("Id");
 
                     b.HasIndex("postagemId");
 
@@ -87,7 +83,7 @@ namespace RedeSocial.Repository.Migrations
 
             modelBuilder.Entity("RedeSocial.Domain.Account.Postagem", b =>
                 {
-                    b.Property<Guid>("postagemId")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
@@ -103,7 +99,7 @@ namespace RedeSocial.Repository.Migrations
                     b.Property<string>("urlFotoPost")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("postagemId");
+                    b.HasKey("Id");
 
                     b.HasIndex("accountId");
 
@@ -137,7 +133,9 @@ namespace RedeSocial.Repository.Migrations
                 {
                     b.HasOne("RedeSocial.Domain.Account.Postagem", null)
                         .WithMany("Comentarios")
-                        .HasForeignKey("postagemId");
+                        .HasForeignKey("postagemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("RedeSocial.Domain.Account.Postagem", b =>

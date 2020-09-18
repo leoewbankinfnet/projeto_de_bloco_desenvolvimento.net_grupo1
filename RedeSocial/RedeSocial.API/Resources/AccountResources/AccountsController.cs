@@ -5,13 +5,15 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using RedeSocial.API.Data;
+using RedeSocial.API.Resources.ComentarioResources;
+using RedeSocial.API.Resources.PostagemResources;
 using RedeSocial.Domain.Account;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace RedeSocial.API.Resources.AccountResources
 {
-    [Route("api/[controller]")]
+    [Route("api/[Controller]")]
     [ApiController]
     public class AccountsController : ControllerBase
     {
@@ -81,6 +83,97 @@ namespace RedeSocial.API.Resources.AccountResources
             return NoContent();
         }
 
+        /////////////////////////////////////////////POSTAGEM////////////////////////////////////////////////////////
+        [HttpGet("{id}/postagens")]
+        public IActionResult GetPostagens()
+        {
+            var list = buscarPostagens();
+            return Ok(list);
+        }
+
+
+
+        // GET api/<PaisesController>/5
+        [HttpGet("{id}/postagens/{postagemId}")]
+        public IActionResult GetPostagens([FromRoute] Guid postagemId)
+        {
+            var postagens = buscarPostagemPorId(postagemId);
+            if (postagens == null)
+                return NotFound();
+
+            var post = _context.Postagem.Where(x => x.postagemId == postagemId).ToList();
+            var response = _mapper.Map<PostagemResponse>(postagens);
+
+            return Ok(response);
+        }
+
+
+        // POST api/<PaisesController>
+        [HttpPost("{id}/postagens")]
+        public IActionResult PostPostagens([FromRoute] Guid id, [FromBody] PostagemRequest postagemRequest)
+        {
+            var account = _context.Account.Find(id);
+            if (account == null)
+                return NotFound();
+
+            var response = criarPostagem(id, postagemRequest);
+            return CreatedAtAction(nameof(GetPostagens), new { response.postagemId }, response);
+        }
+
+        // PUT api/<PaisesController>/5
+        [HttpPut("{id}/postagens/{postagemId}")]
+        public IActionResult PutPostagens(Guid postagemId, [FromBody] PostagemRequest request)
+        {
+            var response = buscarPostagemPorId(postagemId);
+            if (response == null)
+                return NotFound();
+
+            alterarPostagem(postagemId, request);
+
+            return NoContent();
+        }
+
+
+        // DELETE api/<PaisesController>/5
+        [HttpDelete("{id}/postagens/{postagemId}")]
+        public IActionResult DeletePostagens(Guid postagemId)
+        {
+            var response = buscarPostagemPorId(postagemId);
+            if (response == null)
+                return NotFound();
+
+            ExcluirPostagem(postagemId);
+
+            return NoContent();
+        }
+        [HttpGet("{id}/postagens/{postagemId}/comentario")]
+        public ActionResult GetComentariosDaPostagem([FromRoute] Guid postagemId)
+        {
+
+            var postagem = _context.Postagem.Find(postagemId);
+            if (postagem == null)
+                return NotFound();
+
+            var comentarios = _context.Comentario.Where(x => x.idDaPostagem == postagemId).ToList();
+            var response = _mapper.Map<List<ComentarioResponse>>(comentarios);
+
+            return Ok(response);
+
+
+        }
+        [HttpPost("{id}/postagens/{postagemId}/comentario")]
+        public ActionResult PostComentarioNaPostagem([FromRoute] Guid postagemId, [FromBody] ComentarioRequest request)
+        {
+            var postagem = _context.Postagem.Find(postagemId);
+
+            if (postagem == null)
+                return NotFound(); //404
+
+            var response = criarComentario(postagemId, request);
+
+            return CreatedAtAction(nameof(PostComentarioNaPostagem), new { response.comentarioId }, response); //201
+        }
+
 
         /////////////////////////////////////////////////////////////////////
         private void ExcluirAccount(Guid id)
@@ -125,5 +218,69 @@ namespace RedeSocial.API.Resources.AccountResources
             var amigos = _context.Account.ToList();
             return _mapper.Map<IEnumerable<AccountResponse>>(amigos);
         }
+
+        //////////////////////////////////////////////POSTAGEM/////////////////////////////////////////////////////////////////
+        ///
+        private void ExcluirPostagem(Guid id)
+        {
+            var postagem = _context.Postagem.Find(id);
+
+            if (postagem == null)
+                return;
+            _context.Postagem.Remove(postagem);
+            _context.SaveChanges();
+        }
+
+        private PostagemResponse criarPostagem(Guid id, PostagemRequest request)
+        {
+            var postagem = _mapper.Map<Postagem>(request);
+            postagem.accountId = id;
+            postagem.postagemId = Guid.NewGuid();
+
+
+            _context.Postagem.Add(postagem);
+            _context.SaveChanges();
+
+            var response = _mapper.Map<PostagemResponse>(postagem);
+
+            return response;
+        }
+        private void alterarPostagem(Guid id, PostagemRequest request)
+        {
+            var postagem = _context.Postagem.Find(id);
+
+            postagem = _mapper.Map(request, postagem);
+
+            _context.Postagem.Update(postagem);
+            _context.SaveChanges();
+
+        }
+        private PostagemResponse buscarPostagemPorId(Guid id)
+        {
+            var postagem = _context.Postagem.Find(id);
+            if (postagem == null)
+                return null;
+
+            return _mapper.Map<PostagemResponse>(postagem);
+        }
+        private IEnumerable<PostagemResponse> buscarPostagens()
+        {
+            var postagens = _context.Postagem.ToList();
+            return _mapper.Map<IEnumerable<PostagemResponse>>(postagens);
+        }
+        private ComentarioResponse criarComentario(Guid id, ComentarioRequest request)
+        {
+            var comentario = _mapper.Map<Comentario>(request);
+            comentario.idDaPostagem = id;
+
+
+            _context.Comentario.Add(comentario);
+            _context.SaveChanges();
+
+            var response = _mapper.Map<ComentarioResponse>(comentario);
+
+            return response;
+        }
+
     }
 }

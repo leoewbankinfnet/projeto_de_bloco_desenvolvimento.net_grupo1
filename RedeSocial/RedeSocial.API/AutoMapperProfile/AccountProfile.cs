@@ -3,7 +3,7 @@ using AutoMapper;
 using RedeSocial.API.Resources.AccountResources;
 using RedeSocial.Domain.Account;
 
-namespace ApiPaises.AutoMapperProfiles
+namespace RedeSocial.API.AutoMapperProfiles
 {
     public class AccountProfile : Profile
     {
