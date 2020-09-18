@@ -66,6 +66,38 @@ namespace WebApp.ApiServices
             return JsonConvert.DeserializeObject<ListarAccountViewModel>(responseContent);
 
         }
+        public async Task<EditarAccountViewModel> GetAsyncToEdit(string id)
+        {
+            var response = await _httpClient.GetAsync("api/Accounts/" + id);
+
+            var responseContent = await response.Content.ReadAsStringAsync();
+
+            return JsonConvert.DeserializeObject<EditarAccountViewModel>(responseContent);
+
+        }
+        public async Task<EditarAccountViewModel> EditAsync(string id, EditarAccountViewModel editarAccountViewModel)
+        {
+            var criarPaisViewModelJson = JsonConvert.SerializeObject(editarAccountViewModel);
+
+            var conteudo = new StringContent(criarPaisViewModelJson, Encoding.UTF8, "application/json");
+
+            var response = await _httpClient.PutAsync("api/Accounts/" + id, conteudo);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return editarAccountViewModel;
+            }
+            else if (response.StatusCode == HttpStatusCode.UnprocessableEntity)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+
+                var erros = JsonConvert.DeserializeObject<List<string>>(responseContent);
+
+                return editarAccountViewModel;
+            }
+            return editarAccountViewModel;
+
+        }
         public async Task<ListarAccountViewModel> DeleteAsync(string id)
         {
             var response = await _httpClient.DeleteAsync("api/Accounts/" + id);

@@ -64,7 +64,7 @@ namespace  RedeSocial.Web.Controllers
         // GET: PaisesController/Edit/5
         public async Task<ActionResult> Edit(string id)
         {
-            var viewModel = await _accountApi.GetAsync(id);
+            var viewModel = await _accountApi.GetAsyncToEdit(id);
 
             return View(viewModel);
         }
@@ -72,10 +72,12 @@ namespace  RedeSocial.Web.Controllers
         // POST: PaisesController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, EditarAccountViewModel editarAccountViewModel)
+        public async Task<ActionResult> Edit(string id, EditarAccountViewModel editarAccountViewModel)
         {
+            await _accountApi.EditAsync( id ,editarAccountViewModel);
             try
             {
+                
                 return RedirectToAction(nameof(Index));
             }
             catch
