@@ -1077,6 +1077,16 @@ C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_gr
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Create.cshtml.g.cs
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Edit.cshtml.g.cs
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Index.cshtml.g.cs
+<<<<<<< Updated upstream
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Create.cshtml.g.cs
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Edit.cshtml.g.cs
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Index.cshtml.g.cs
+=======
+C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\PostagemApi\Index.cshtml.g.cs
+C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\PostagemApi\Create.cshtml.g.cs
+C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\PostagemApi\Delete.cshtml.g.cs
+C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\ComentarioApi\Index.cshtml.g.cs
+C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\ComentarioApi\Create.cshtml.g.cs
+>>>>>>> Stashed changes

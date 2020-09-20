@@ -464,6 +464,7 @@ C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_gr
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\obj\Debug\netcoreapp3.1\RedeSocial.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
+<<<<<<< Updated upstream
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
@@ -639,3 +640,7 @@ C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\obj\Debug\netcoreapp3.1\RedeSocial.API.dll
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\obj\Debug\netcoreapp3.1\RedeSocial.API.pdb
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\obj\Debug\netcoreapp3.1\RedeSocial.API.genruntimeconfig.cache
+=======
+C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+>>>>>>> Stashed changes

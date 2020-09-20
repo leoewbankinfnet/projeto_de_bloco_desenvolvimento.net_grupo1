@@ -66,6 +66,9 @@ namespace RedeSocial.Repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid>("accountId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("accountName")
                         .HasColumnType("nvarchar(max)");
 
@@ -75,6 +78,9 @@ namespace RedeSocial.Repository.Migrations
                     b.Property<Guid>("idDaPostagem")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("postUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<Guid?>("postagemId")
                         .HasColumnType("uniqueidentifier");
 
@@ -82,7 +88,7 @@ namespace RedeSocial.Repository.Migrations
 
                     b.HasIndex("postagemId");
 
-                    b.ToTable("Comentario");
+                    b.ToTable("Comentarios");
                 });
 
             modelBuilder.Entity("RedeSocial.Domain.Account.Postagem", b =>
@@ -98,9 +104,11 @@ namespace RedeSocial.Repository.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("titulo")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("urlFotoPost")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("postagemId");

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using RedeSocial.Domain.Account;
 using RedeSocial.Repository.Mapping;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,9 @@ namespace RedeSocial.Repository.Context
     {
 
         public DbSet<Domain.Account.Account> Accounts { get; set; }
-        public DbSet<Domain.Account.Role> Profiles { get; set; }
+        public DbSet<Role> Profiles { get; set; }
+        public DbSet<Postagem> Postagens { get; set; }
+        public DbSet<Comentario> Comentarios { get; set; }
 
         public static readonly ILoggerFactory _loggerFactory
                     = LoggerFactory.Create(builder => { builder.AddConsole(); });
@@ -32,6 +35,8 @@ namespace RedeSocial.Repository.Context
         {
             modelBuilder.ApplyConfiguration(new AccountMap());
             modelBuilder.ApplyConfiguration(new RoleMap());
+            modelBuilder.ApplyConfiguration(new PostagemMap());
+            modelBuilder.ApplyConfiguration(new ComentarioMap());
 
             base.OnModelCreating(modelBuilder);
         }

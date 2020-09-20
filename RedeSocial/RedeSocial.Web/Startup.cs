@@ -34,12 +34,15 @@ namespace RedeSocial.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllersWithViews();
             services.AddTransient<IAccountRepository, AccountRepository>();
             services.AddTransient<IUserStore<Account>, AccountRepository>();
             services.AddTransient<IRoleStore<Role>, RoleRepository>();
             services.AddTransient<IAccountIdentityManager, AccountIdentityManager>();
             services.AddTransient<IAccountService, AccountService>();
             services.AddScoped<IAccountApi, AccountApi>();
+            services.AddScoped<IPostagemApi, PostagemApi>();
+            services.AddScoped<IComentarioApi, ComentarioApi>();
             services.AddTransient<AzureStorage>();
             services.Configure<AzureStorageOptions>(Configuration.GetSection("Microsoft.Storage"));
 
@@ -59,7 +62,7 @@ namespace RedeSocial.Web
                 options.ReturnUrlParameter = CookieAuthenticationDefaults.ReturnUrlParameter;
             });
             
-            services.AddControllersWithViews();
+            
             
             services.AddRazorPages();
         }
