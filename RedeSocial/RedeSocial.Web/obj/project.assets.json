@@ -3151,7 +3151,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "RedeSocial.Domain": "1.0.0",
-          "RedeSocial.Repository": "1.0.0"
+          "RedeSocial.Repository": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "6.7.1"
         },
         "compile": {
           "bin/placeholder/RedeSocial.Services.dll": {}
@@ -9813,19 +9814,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\natan\\.nuget\\packages\\": {}
+    "C:\\Users\\leona\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Web\\RedeSocial.Web.csproj",
+      "projectUniqueName": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Web\\RedeSocial.Web.csproj",
       "projectName": "RedeSocial.Web",
-      "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Web\\RedeSocial.Web.csproj",
-      "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Web\\obj\\",
+      "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Web\\RedeSocial.Web.csproj",
+      "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Web\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9838,8 +9843,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj": {
-              "projectPath": "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj"
+            "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj": {
+              "projectPath": "C:\\Users\\leona\\Documents\\GitHub\\desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj"
             }
           }
         }
@@ -9918,7 +9923,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -9927,7 +9932,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'EntityFramework 6.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "O pacote 'EntityFramework 6.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "EntityFramework",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
@@ -9937,7 +9942,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "O pacote 'Microsoft.AspNet.Identity.Core 2.2.3' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
@@ -9947,7 +9952,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.EntityFramework 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "O pacote 'Microsoft.AspNet.Identity.EntityFramework 2.2.3' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "Microsoft.AspNet.Identity.EntityFramework",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

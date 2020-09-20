@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RedeSocial.API.Data;
 using RedeSocial.API.Resources.ComentarioResources;
@@ -15,6 +16,7 @@ namespace RedeSocial.API.Resources.AccountResources
 {
     [Route("api/[Controller]")]
     [ApiController]
+    //[Authorize]  //Sacoisinha aqui serve pra parte de auttenticacao via Token, todo controller que tiver isso, ira necessitar de validacao do token
     public class AccountsController : ControllerBase
     {
         private readonly RedeSocialAPIContext _context;

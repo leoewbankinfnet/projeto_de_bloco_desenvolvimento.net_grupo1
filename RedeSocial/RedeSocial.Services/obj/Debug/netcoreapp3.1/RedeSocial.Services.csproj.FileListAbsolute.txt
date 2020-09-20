@@ -58,7 +58,6 @@ C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Services\obj\Debug\netcoreapp3.1\RedeSocial.Services.csprojAssemblyReference.cache
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Services\obj\Debug\netcoreapp3.1\RedeSocial.Services.AssemblyInfoInputs.cache
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Services\obj\Debug\netcoreapp3.1\RedeSocial.Services.AssemblyInfo.cs
-C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Services\obj\Debug\netcoreapp3.1\RedeSocial.Services.csproj.CoreCompileInputs.cache
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Services\obj\Debug\netcoreapp3.1\RedeSocial.Services.csproj.CopyComplete
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Services\obj\Debug\netcoreapp3.1\RedeSocial.Services.dll
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Services\obj\Debug\netcoreapp3.1\RedeSocial.Services.pdb
@@ -94,3 +93,4 @@ C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_gr
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Services\bin\Debug\netcoreapp3.1\RedeSocial.Repository.pdb
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Services\bin\Debug\netcoreapp3.1\RedeSocial.CrossCutting.pdb
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Services\obj\Debug\netcoreapp3.1\RedeSocial.Services.csproj.CopyComplete
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Services\obj\Debug\netcoreapp3.1\RedeSocial.Services.csproj.CoreCompileInputs.cache
