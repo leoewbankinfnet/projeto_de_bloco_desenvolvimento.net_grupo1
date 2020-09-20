@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b4TYUC6uBeKPTQ9muq5pWTZ2Ob07ihAS1msIDUQXBj+hmXeN5WIYmAWLqHUNE+CGhuU+b58uS0aGpgcuLJZSOQ==",
+  "dgSpecHash": "RRgbpZRlMQXzTCKKS1YAabgoWK543VdbgRciVlxhknq/H/g47tTCaVA483hLyXqCc4PeELqzjl5lKIjMMfd6bQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\natan\\source\\repos\\RedeSocialPB\\projeto_de_bloco_desenvolvimento.net_grupo1\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
   "expectedPackageFiles": [
@@ -8,9 +8,9 @@
     "C:\\Users\\natan\\.nuget\\packages\\microsoft.azure.storage.blob\\11.2.2\\microsoft.azure.storage.blob.11.2.2.nupkg.sha512",
     "C:\\Users\\natan\\.nuget\\packages\\microsoft.azure.storage.common\\11.2.2\\microsoft.azure.storage.common.11.2.2.nupkg.sha512",
     "C:\\Users\\natan\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
-    "C:\\Users\\natan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.7\\microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512",
-    "C:\\Users\\natan\\.nuget\\packages\\microsoft.extensions.options\\3.1.7\\microsoft.extensions.options.3.1.7.nupkg.sha512",
-    "C:\\Users\\natan\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.7\\microsoft.extensions.primitives.3.1.7.nupkg.sha512",
+    "C:\\Users\\natan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\natan\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "C:\\Users\\natan\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
     "C:\\Users\\natan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\natan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\natan\\.nuget\\packages\\netstandard.library\\2.0.1\\netstandard.library.2.0.1.nupkg.sha512",

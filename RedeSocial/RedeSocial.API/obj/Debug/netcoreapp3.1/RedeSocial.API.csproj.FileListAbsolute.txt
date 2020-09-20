@@ -644,3 +644,4 @@ C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 >>>>>>> Stashed changes
+C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
