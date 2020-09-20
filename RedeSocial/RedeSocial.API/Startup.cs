@@ -13,6 +13,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using RedeSocial.API.Data;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
 
 namespace RedeSocial.API
 {
@@ -31,6 +34,26 @@ namespace RedeSocial.API
             services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+            //Autenticacao via token JWT
+            services.AddTransient<Services.AuthenticateService>();
+
+            var key = Encoding.UTF8.GetBytes(this.Configuration["Token:Secret"]);
+
+            services.AddAuthentication(opt =>
+            {
+                //opt.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                 opt.DefaultScheme = "Bearer";
+
+            }).AddJwtBearer(o => {
+                //validacoes do token
+                o.TokenValidationParameters.ValidIssuer = "RedeSocialAPI";
+                o.TokenValidationParameters.ValidAudience = "RedeSocialAPI";
+                o.TokenValidationParameters.IssuerSigningKey = new SymmetricSecurityKey(key);
+
+            }); 
+
+
+
             services.AddDbContext<RedeSocialAPIContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("RedeSocial")));
         }
@@ -47,6 +70,9 @@ namespace RedeSocial.API
 
             app.UseRouting();
 
+            app.UseAuthorization();
+
+            //Outra linha pra validar o token e autenticar a API
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

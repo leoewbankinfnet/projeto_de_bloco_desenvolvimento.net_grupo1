@@ -67,7 +67,7 @@ namespace RedeSocial.Repository.Account
         {
             user.UserName = normalizedName;
             return Task.CompletedTask;
-            
+
         }
 
         public Task SetUserNameAsync(Domain.Account.Account user, string userName, CancellationToken cancellationToken)
@@ -79,7 +79,7 @@ namespace RedeSocial.Repository.Account
         public async Task<IdentityResult> UpdateAsync(Domain.Account.Account user, CancellationToken cancellationToken)
         {
             var accountToUpdate = await this.Context.Accounts.AsNoTracking().FirstOrDefaultAsync(x => x.Id == user.Id);
-            
+
             accountToUpdate = user;
             this.Context.Entry(accountToUpdate).State = EntityState.Modified;
 
@@ -104,6 +104,17 @@ namespace RedeSocial.Repository.Account
                                                .FirstOrDefault(x => x.UserName == userName && x.Password == password));
         }
 
+        public Domain.Account.Account GetAccountByUserName(string userName)
+        {
+
+            return Context.Accounts.FirstOrDefault(x => x.UserName == userName);
+        }
+        public bool CheckPassword(Domain.Account.Account account, string password)
+        {
+            if (account.Password == password) return true;
+
+            return false;
+        }
 
         #region Dispose Implementation
 

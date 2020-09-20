@@ -821,9 +821,6 @@ C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.TagHelpers.output.cache
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.RazorCoreGenerate.cache
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountsCreate\Create.cshtml.g.cs
-C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountsCreate\Edit.cshtml.g.cs
-C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountsCreate\Index.cshtml.g.cs
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
@@ -1080,3 +1077,6 @@ C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_gr
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Create.cshtml.g.cs
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Edit.cshtml.g.cs
 C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Index.cshtml.g.cs
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Create.cshtml.g.cs
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Edit.cshtml.g.cs
+C:\Users\leona\Documents\GitHub\desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\AccountApi\Index.cshtml.g.cs

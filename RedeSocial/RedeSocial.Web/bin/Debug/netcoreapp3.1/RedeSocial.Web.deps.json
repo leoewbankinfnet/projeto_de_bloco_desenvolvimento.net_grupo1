@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "8.0",
+    "languageVersion": "",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -2824,7 +2824,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "RedeSocial.Domain": "1.0.0",
-          "RedeSocial.Repository": "1.0.0"
+          "RedeSocial.Repository": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "6.7.1"
         },
         "runtime": {
           "RedeSocial.Services.dll": {}
