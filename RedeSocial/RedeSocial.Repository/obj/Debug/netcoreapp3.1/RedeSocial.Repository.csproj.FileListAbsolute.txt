@@ -68,17 +68,3 @@ C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolviment
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.csproj.CopyComplete
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.dll
 C:\Users\natan\source\repos\intro-ef-core-master\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.pdb
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\bin\Debug\netcoreapp3.1\RedeSocial.Repository.deps.json
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\bin\Debug\netcoreapp3.1\RedeSocial.Repository.dll
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\bin\Debug\netcoreapp3.1\RedeSocial.Repository.pdb
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\bin\Debug\netcoreapp3.1\RedeSocial.CrossCutting.dll
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\bin\Debug\netcoreapp3.1\RedeSocial.Domain.dll
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\bin\Debug\netcoreapp3.1\RedeSocial.CrossCutting.pdb
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\bin\Debug\netcoreapp3.1\RedeSocial.Domain.pdb
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.csprojAssemblyReference.cache
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.AssemblyInfoInputs.cache
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.AssemblyInfo.cs
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.csproj.CoreCompileInputs.cache
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.csproj.CopyComplete
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.dll
-C:\Users\natan\source\repos\RedeSocialPB\projeto_de_bloco_desenvolvimento.net_grupo1\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.pdb
