@@ -14,7 +14,7 @@ namespace RedeSocial.Repository.Context
         public DbSet<Domain.Account.Account> Accounts { get; set; }
         public DbSet<Role> Profiles { get; set; }
         public DbSet<Postagem> Postagens { get; set; }
-        public DbSet<Comentario> Comentarios { get; set; }
+        public DbSet<Comentario> Comentario { get; set; }
 
         public static readonly ILoggerFactory _loggerFactory
                     = LoggerFactory.Create(builder => { builder.AddConsole(); });

@@ -11,6 +11,6 @@ namespace RedeSocial.Web.Models.PostagemApi
         public string urlFotoPost { get; set; }
         public string legenda { get; set; }
         public Guid accountId { get; set; }
-        public List<Comentario> Comentarios { get; set; }
+        public List<Comentario> Comentario { get; set; }
     }
 }

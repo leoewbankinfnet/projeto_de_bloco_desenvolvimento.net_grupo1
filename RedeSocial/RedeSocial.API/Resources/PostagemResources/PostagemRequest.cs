@@ -10,6 +10,7 @@ namespace RedeSocial.API.Resources.PostagemResources
         public string titulo { get; set; }
         public string urlFotoPost { get; set; }
         public Guid accountId { get; set; }
+        public string accountName { get; set; }
         public string legenda { get; set; }
     }
 }

@@ -19,6 +19,7 @@ namespace RedeSocial.Repository.Mapping
             builder.Property(x => x.urlFotoPost).IsRequired();
             builder.Property(x => x.legenda);
             builder.Property(x => x.accountId);
+            builder.Property(x => x.accountName);
 
 
         }

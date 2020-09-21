@@ -9,6 +9,7 @@ using System.Net;
 using RedeSocial.Web.Models.Account;
 using RestSharp;
 using Microsoft.AspNetCore.Http;
+using RedeSocial.Domain.Account;
 
 namespace WebApp.ApiServices
 {
@@ -74,6 +75,15 @@ namespace WebApp.ApiServices
             var responseContent = await response.Content.ReadAsStringAsync();
 
             return JsonConvert.DeserializeObject<ListarAccountViewModel>(responseContent);
+
+        }
+        public async Task<Account> GetAsyncToDelete(string id)
+        {
+            var response = await _httpClient.GetAsync("api/Accounts/" + id);
+
+            var responseContent = await response.Content.ReadAsStringAsync();
+
+            return JsonConvert.DeserializeObject<Account>(responseContent);
 
         }
         public async Task<EditarAccountViewModel> GetAsyncToEdit(string id)

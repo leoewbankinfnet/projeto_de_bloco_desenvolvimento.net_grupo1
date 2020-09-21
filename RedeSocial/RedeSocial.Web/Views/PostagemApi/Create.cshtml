@@ -27,6 +27,10 @@
                 <span asp-validation-for="accountId" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <input type="hidden" asp-for="accountName" value="@(this.User.Claims.First(x => x.Type == System.Security.Claims.ClaimTypes.Name).Value)" ; />
+                <span asp-validation-for="accountName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label for="fotoPost" class="control-label"></label>
                 <input type="file" name="fotoPost" for="nome" class="form-control" />
                 <span validation-for="fotoPost" class="text-danger"></span>

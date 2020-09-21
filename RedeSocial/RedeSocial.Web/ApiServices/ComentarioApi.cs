@@ -24,16 +24,16 @@ namespace WebApp.ApiServices
             _httpClient.BaseAddress = new Uri("http://localhost:51854/");
         }
 
-        public async Task<CriarComentarioViewModel>  PostAsync(CriarComentarioViewModel criarComentarioViewModel)
+        public async Task<CriarComentarioViewModel>  PostAsync(CriarComentarioViewModel criarComentarioViewModel,Guid  postId)
         {
-            var idPost = criarComentarioViewModel.idDaPostagem;
+            criarComentarioViewModel.idDaPostagem = postId;
             var criarPostagemViewModelJson = JsonConvert.SerializeObject(criarComentarioViewModel);
 
             
 
             var conteudo = new StringContent(criarPostagemViewModelJson, Encoding.UTF8, "application/json");
 
-            var response = await _httpClient.PostAsync($"api/Accounts/id/postagens/{idPost}", conteudo);
+            var response = await _httpClient.PostAsync($"api/Accounts/id/postagens/{postId}/comentario", conteudo);
 
             if (response.IsSuccessStatusCode)
             {
@@ -52,7 +52,7 @@ namespace WebApp.ApiServices
         public async Task<List<Comentario>> GetAsync(string userId, string postId)
         {
             var response = await _httpClient.GetAsync($"api/Accounts/{userId}/postagens/{postId}/comentario");
-
+            
             var responseContent = await response.Content.ReadAsStringAsync();
 
             var list = JsonConvert.DeserializeObject<List<Comentario>>(responseContent);
@@ -60,9 +60,9 @@ namespace WebApp.ApiServices
             return list;
 
         }
-        public async Task<Comentario> GetAsyncEspecifico( string userId,string postId)
+        public async Task<Comentario> GetAsyncEspecifico( string comentId,string postId)
         {
-            var response = await _httpClient.GetAsync($"api/Accounts/{userId}/postagens/{postId}/comentario");
+            var response = await _httpClient.GetAsync($"api/Accounts/id/postagens/{postId}/comentario/{comentId}");
 
             var responseContent = await response.Content.ReadAsStringAsync();
 
@@ -101,9 +101,9 @@ namespace WebApp.ApiServices
             return comentario;
 
         }
-        public async Task<Comentario> DeleteAsync(string userId,string postId)
+        public async Task<Comentario> DeleteAsync(string comentId, string postId)
         {
-            var response = await _httpClient.DeleteAsync($"api/Accounts/{userId}/postagens/" + postId);
+            var response = await _httpClient.DeleteAsync($"api/Accounts/id/postagens/{postId}/comentario/{comentId}");
 
             var responseContent = await response.Content.ReadAsStringAsync();
 

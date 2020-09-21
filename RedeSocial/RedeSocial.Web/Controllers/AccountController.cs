@@ -57,7 +57,7 @@ namespace RedeSocial.Web.Controllers
                 }
 
                 //Ao loga,o token gerado na sessão é salvo
-                SaveToken(model.UserName, model.Password);
+                //SaveToken(model.UserName, model.Password);
 
 
                 if (!String.IsNullOrWhiteSpace(returnUrl))

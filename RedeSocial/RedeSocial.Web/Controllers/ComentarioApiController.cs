@@ -17,6 +17,7 @@ namespace  RedeSocial.Web.Controllers
         private readonly IComentarioApi _comentariomApi;
         private readonly IAccountApi _accountApi;
 
+
         public ComentarioApiController(IComentarioApi comentariomApi, IAccountApi accountapi)
         {
             _comentariomApi = comentariomApi;
@@ -46,14 +47,15 @@ namespace  RedeSocial.Web.Controllers
         // POST: PaisesController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(CriarComentarioViewModel criarComentarioViewModel)
+        public async Task<ActionResult> Create(CriarComentarioViewModel criarComentarioViewModel, Guid id)
         {
-            
-            await _comentariomApi.PostAsync(criarComentarioViewModel);
+           
+            Guid postId = id;
+            await _comentariomApi.PostAsync(criarComentarioViewModel, postId);
 
             try
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "PostagemApi");
             }
             catch
             {
@@ -92,11 +94,12 @@ namespace  RedeSocial.Web.Controllers
         public async Task<ActionResult> Delete(string id)
         {
             var separadoid = id.Split("&&");
-            var postId = separadoid[0];
-            var userId = separadoid[1];
-            var viewModel = await _comentariomApi.GetAsyncEspecifico(userId, postId);
+            var comentId = separadoid[0];
+            var postId = separadoid[1];
+            //var viewModel = await _comentariomApi.GetAsyncEspecifico(comentId, postId);
+            await _comentariomApi.DeleteAsync(comentId, postId);
 
-            return View(viewModel);
+            return RedirectToAction(nameof(Index));
         }
 
         // POST: PaisesController/Delete/5
@@ -132,4 +135,5 @@ namespace  RedeSocial.Web.Controllers
             return destinoDaImagemNaNuvem;
         }
     }
+
 }

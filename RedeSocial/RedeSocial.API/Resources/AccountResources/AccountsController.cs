@@ -54,7 +54,7 @@ namespace RedeSocial.API.Resources.AccountResources
         {
 
             var response = criarAccount(accountRequest);
-            return CreatedAtAction(nameof(Get), new { response.Id}, response);
+            return CreatedAtAction(nameof(Get), new { response.Id }, response);
         }
 
 
@@ -175,6 +175,17 @@ namespace RedeSocial.API.Resources.AccountResources
 
             return CreatedAtAction(nameof(PostComentarioNaPostagem), new { response.comentarioId }, response); //201
         }
+        [HttpDelete("{id}/postagens/{postagemId}/comentario/comentarioId")]
+        public IActionResult DeleteComentarios(Guid comentarioId)
+        {
+            var response = buscarComentarioPorId(comentarioId);
+            if (response == null)
+                return NotFound();
+
+            ExcluirPostagem(comentarioId);
+
+            return NoContent();
+        }
 
 
         /////////////////////////////////////////////////////////////////////
@@ -192,6 +203,7 @@ namespace RedeSocial.API.Resources.AccountResources
         {
             var amigo = _mapper.Map<Account>(accountRequest);
             amigo.Id = Guid.NewGuid();
+            
 
             _context.Account.Add(amigo);
             _context.SaveChanges();
@@ -230,6 +242,15 @@ namespace RedeSocial.API.Resources.AccountResources
             if (postagem == null)
                 return;
             _context.Postagem.Remove(postagem);
+            _context.SaveChanges();
+        }
+        private void ExcluirComentario(Guid id)
+        {
+            var postagem = _context.Comentario.Find(id);
+
+            if (postagem == null)
+                return;
+            _context.Comentario.Remove(postagem);
             _context.SaveChanges();
         }
 
@@ -282,6 +303,15 @@ namespace RedeSocial.API.Resources.AccountResources
             var response = _mapper.Map<ComentarioResponse>(comentario);
 
             return response;
+        }
+        private ComentarioResponse buscarComentarioPorId(Guid id)
+        {
+            var coment = _context.Comentario.Find(id);
+            if (coment == null)
+                return null;
+
+
+            return _mapper.Map<ComentarioResponse>(coment);
         }
 
     }

@@ -9,6 +9,7 @@ namespace RedeSocial.API.Resources.ComentarioResources
     {
         public Guid comentarioId { get; set; }
         public string comentario { get; set; }
+        public Guid idDaPostagem { get; set; }
         public string accountName { get; set; }
     }
 }

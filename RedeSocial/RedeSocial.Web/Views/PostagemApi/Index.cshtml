@@ -21,7 +21,9 @@
             <div class="card__box">
 
                 <header class="card__item card__header">
-                    <h6 class="card__item card__item--small card__label">@if(accountid == account2){ <a asp-action="Delete" asp-route-id="@item.postagemId&&@item.accountId">Deletar post</a>}</h6>
+                    <h6 class="card__item card__item--small card__label"style="font-size:18px">@Html.DisplayFor(modelItem => item.accountName)</h6>
+                    <h6 class="card__item card__item--small card__label">@if (accountid == account2)
+                    {<a asp-action="Delete" asp-route-id="@item.postagemId&&@item.accountId">Deletar post</a>}</h6>
                     <h2 class="card__item card__item--small card__title">@Html.DisplayFor(modelItem => item.titulo)</h2>
 
                 </header>
@@ -30,7 +32,7 @@
 
                 <section class="card__item card__body">
                     <p>@Html.DisplayFor(modelItem => item.legenda)</p>
-                    <a asp-controller="ComentarioApi" asp-action="Index" asp-route-id="@item.accountId&&@item.postagemId">Deletar post</a>
+                    <a asp-controller="ComentarioApi" asp-action="Index" asp-route-id="@item.accountId&&@item.postagemId">Comentar</a>
                 </section>
 
             </div>
@@ -110,7 +112,7 @@
     }
 
     .card__title {
-        color: #222222;
+        color:darkslategrey;
         font-size: 30px;
         font-weight: 400;
         line-height: 1.25;

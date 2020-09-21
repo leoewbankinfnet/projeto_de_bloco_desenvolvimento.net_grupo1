@@ -45,8 +45,6 @@ namespace  RedeSocial.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(CriarAccountViewModel criarAccountViewModel)
         {
-            /*var URLFoto = UploadFotoPerfil(criarAccountViewModel.fotoAccount);
-            criarAccountViewModel.fotoPerfil = URLFoto;*/
             await _accountApi.PostAsync(criarAccountViewModel);
 
             try
@@ -77,8 +75,8 @@ namespace  RedeSocial.Web.Controllers
             await _accountApi.EditAsync( id ,editarAccountViewModel);
             try
             {
-                
-                return RedirectToAction(nameof(Index));
+
+                return RedirectToAction("Index", "Home");
             }
             catch
             {
@@ -89,7 +87,7 @@ namespace  RedeSocial.Web.Controllers
         // GET: PaisesController/Delete/5
         public async Task<ActionResult> Delete(string id)
         {
-            var viewModel = await _accountApi.GetAsync(id);
+            var viewModel = await _accountApi.GetAsyncToDelete(id);
 
             return View(viewModel);
         }
@@ -102,7 +100,7 @@ namespace  RedeSocial.Web.Controllers
             await _accountApi.DeleteAsync(id);
             try
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Login", "Account");
             }
             catch
             {
