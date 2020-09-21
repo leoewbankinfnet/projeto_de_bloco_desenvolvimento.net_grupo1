@@ -4,6 +4,6 @@ Projeto de Bloco: Desenvolvimento .NET
 Grupo
 
 
-Leonardo Ewbank (Líder),
+Leonardo Ewbank,
 Marco Targino,
 Natan Borges.
